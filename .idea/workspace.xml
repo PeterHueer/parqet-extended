@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d72e52f5-181f-4398-865e-c0d6bfd34207" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/loader.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/stocks.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/loader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/loader.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +197,7 @@
       <workItem from="1738501104710" duration="12000" />
       <workItem from="1738501129577" duration="634000" />
       <workItem from="1738501799471" duration="1285000" />
-      <workItem from="1738503090008" duration="6351000" />
+      <workItem from="1738503090008" duration="6744000" />
     </task>
     <servers />
   </component>

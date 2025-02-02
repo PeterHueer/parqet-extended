@@ -96,7 +96,7 @@ export type Holding = {
     activityCount: number
     sharedAsset: SharedAsset
     currencyAdjusted: boolean
-    futureDividends: any[]
+    futureDividends: never[]
     dividendGrowth: Record<
         string,
         {
@@ -144,7 +144,7 @@ type DividendGrowth = Record<
 type StockData = {
     interval: Interval
     holdings: Holding[]
-    activities: any[]
+    activities: never[]
     performance: Performance
     futureDividends: FutureDividend[]
     allocation: Allocation
