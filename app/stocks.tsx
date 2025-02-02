@@ -17,8 +17,10 @@ export default function Stocks(props: { id: string }) {
         quote,
         performance: { realized },
     }: Holding) => {
-        const returnGross = quote.price - startQuote.price
-        const totalGainGross = (realized.invested * returnGross) / 100
+        const returnGross =
+            ((startQuote.price - quote.price) / startQuote.price) * 100
+        const totalGainGross =
+            (realized.invested * (quote.price - startQuote.price)) / 100
 
         return { totalGainGross, returnGross }
     }
